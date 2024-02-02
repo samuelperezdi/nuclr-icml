@@ -7,8 +7,10 @@ Mechanistic Interpretability (MI) promises a path toward fully understanding how
 ```pip install -r requirements.txt```
 
 - Get the model and the data.
-```wget https://zenodo.org/records/10608438```
-```unzip data.zip```
+
+  ```wget https://zenodo.org/records/10608438/files/data.zip```
+
+  ```unzip data.zip```
 
 Now you should have the data and models under the right directories and can run the notebook to make some model visualizations.
 
