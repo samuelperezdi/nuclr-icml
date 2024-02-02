@@ -22,3 +22,5 @@ nbs/
 scripts/
 docs/
 setup.py
+models/
+data/
