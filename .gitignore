@@ -9,7 +9,6 @@ spiral/
 .vscode
 hall_of_fame*
 *.npy
-*.yaml
 
 fits/
 fits_mtl_be/

@@ -1,0 +1,35 @@
+DEPTH: 2
+DEV: cuda
+EPOCHS: 200000
+HIDDEN_DIM: 2048
+LR: 0.0001
+MODEL: baseline
+SIGMOID_READOUT: 'false'
+TMS: remove
+WD: 0.01
+TARGETS_CLASSIFICATION: {}
+TARGETS_REGRESSION:
+  binding: 100
+  z: 1
+  n: 1
+  radius: 0.02
+  qa: 200
+  qbm: 200
+  qbm_n: 200
+  qec: 200
+  sn: 200
+  sp: 200
+TRAIN_FRAC: 1.0
+LIPSCHITZ: 'false'
+TRAIN_SET: all
+BATCH_SIZE: 0.2
+NUCLEI_GE: 0
+NUCLEI_HIGH_UNC: keep
+PER_NUCLEON: 'false'
+LOG_TIMES: 100
+SAVE_CKPT: 5
+VERBOSITY: 1
+TAGS:
+- long-run
+SEED: 0
+WANDB: 'true'

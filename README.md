@@ -22,8 +22,12 @@ data/
   ├── ame2020.csv
   └── ground_states.csv
 
-long-runs/models/
-  ├── long_run-binding100+z1+n1+radius0.02+qa200+qbm200+qbm_n200+qec200+sn200+sp200-seed0/
+models/
+  ├── all-multi-task
+      └── args.yaml
+      └── ckpts/
+          └── model.pt
+  ├── binding-single-task
       └── args.yaml
       └── ckpts/
           └── model.pt
